@@ -1,4 +1,4 @@
-import React, from 'react'; { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { getGifs } from '../components/helpers/getGifs';
 
 
@@ -9,7 +9,7 @@ export const useFetchGifs = ( Category ) => {
         loading: true
     });
     //esta codigo ha si como esta le indica que la sintaxis contenida dentro del hook useEffect
-//se ejecutara cuando este en cero ho suceda algun cambio en el array Category, de manera;
+   //se ejecutara cuando este en cero ho suceda algun cambio en el array Category, de manera;
 
     useEffect(() => {  
        getGifs(Category)      
